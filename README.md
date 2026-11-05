@@ -133,3 +133,27 @@ Veja `agents/agent-integration.md` (Claude Code, Cursor, Codex, chat generico).
 - `examples/` — exemplos de codigo
 - `test/` — relato de teste
 - `config/` — snippet de configuracao
+
+---
+
+## Instalar sem clonar o repositorio
+
+Versao completa (recomendado, OpenCode + MCP):
+macOS/Linux:
+```bash
+curl -fsSL https://raw.githubusercontent.com/SoloLF17/frontend-ui-inspection-hybrid/main/install/install.sh | bash
+```
+Windows (PowerShell):
+```powershell
+irm https://raw.githubusercontent.com/SoloLF17/frontend-ui-inspection-hybrid/main/install/install.ps1 | iex
+```
+
+Versao prompt-only (sem MCP):
+macOS/Linux:
+```bash
+curl -fsSL https://raw.githubusercontent.com/SoloLF17/frontend-ui-inspection-hybrid/main/install/install-prompt-only.sh | bash
+```
+Windows (PowerShell):
+```powershell
+irm https://raw.githubusercontent.com/SoloLF17/frontend-ui-inspection-hybrid/main/install/install-prompt-only.ps1 | iex
+```
